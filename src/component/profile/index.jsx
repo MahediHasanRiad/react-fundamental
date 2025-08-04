@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Skills from "./skill";
 import Social from "./social";
-import './profile.style.css'
+import "./profile.style.css";
 
 class Profile extends Component {
   render() {
@@ -9,8 +9,8 @@ class Profile extends Component {
     const profession = "Full stack developer, JavaScript / React / TypeScript";
 
     return (
-      <div class = 'container'>
-        <h1>{name}</h1> 
+      <div class="container">
+        <h1>{name}</h1>
         <h3>{profession}</h3>
         <Skills />
         <Social />
@@ -19,4 +19,4 @@ class Profile extends Component {
   }
 }
 
-export default Profile
+export default Profile;

@@ -6,6 +6,8 @@ import Props from './props/index' // how to import component
 import State from "./state";
 import Events from "./events/event-index";
 import Form from "./form";
+import PracticeForm from "./form/practice";
+import Login from "./form/login-form/login";
 
 // how to class to react-component
 class App extends Component {
@@ -17,7 +19,9 @@ class App extends Component {
         <Props /> */}
         {/* <State /> */}
         {/* <Events /> */}
-        <Form />
+        {/* <Form /> */}
+        {/* <PracticeForm /> */}
+        <Login />
       </div>
     );
   }

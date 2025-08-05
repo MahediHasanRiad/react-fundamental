@@ -8,7 +8,7 @@ class State extends Component {
     return (
       <div>
         {/* <Count /> */}
-        <Timer />
+        {/* <Timer /> */}
       </div>
     );
   }

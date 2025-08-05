@@ -23,7 +23,7 @@ class Timer extends Component {
 
   intervalId = null
 
-  intervalId = start = () => {
+  start = () => {
     if (this.state.timer > 0 && !this.intervalId) {
       
     }

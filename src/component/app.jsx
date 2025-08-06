@@ -8,6 +8,7 @@ import Events from "./events/event-index";
 import Form from "./form";
 import PracticeForm from "./form/practice";
 import Login from "./form/login-form/login";
+import Register from "./form/register-form.jsx/register";
 
 // how to class to react-component
 class App extends Component {
@@ -15,13 +16,14 @@ class App extends Component {
     return (
       <div>
         <h1>This is my 1st react code</h1>
-        {/* <Profile />    
-        <Props /> */}
+        {/* <Profile />     */}
+        {/* <Props /> */}
         {/* <State /> */}
         {/* <Events /> */}
         {/* <Form /> */}
         {/* <PracticeForm /> */}
-        <Login />
+        {/* <Login /> */}
+        <Register/>
       </div>
     );
   }
